@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmartHotel220.Web", "SmartHotel220.Web\SmartHotel220.Web.csproj", "{2C0B334A-121B-4695-9660-0FA7D98CB223}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetCheckerFunction", "PetCheckerFunction\PetCheckerFunction.csproj", "{5B76F608-13FF-4722-8259-428137C8EFD9}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{CE214A8C-280A-4C60-9ABD-D5A0FB61E0DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C0B334A-121B-4695-9660-0FA7D98CB223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0B334A-121B-4695-9660-0FA7D98CB223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0B334A-121B-4695-9660-0FA7D98CB223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0B334A-121B-4695-9660-0FA7D98CB223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B76F608-13FF-4722-8259-428137C8EFD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B76F608-13FF-4722-8259-428137C8EFD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B76F608-13FF-4722-8259-428137C8EFD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B76F608-13FF-4722-8259-428137C8EFD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE214A8C-280A-4C60-9ABD-D5A0FB61E0DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE214A8C-280A-4C60-9ABD-D5A0FB61E0DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE214A8C-280A-4C60-9ABD-D5A0FB61E0DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE214A8C-280A-4C60-9ABD-D5A0FB61E0DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDDB502B-3546-4663-8162-CEDCAAE3F6A3}
+	EndGlobalSection
+EndGlobal

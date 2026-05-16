@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: smarthotel220web
+    component: web
+  name: web
+spec:
+  ports:
+  - port: 80
+  selector:
+    app: smarthotel220web
+    component: web

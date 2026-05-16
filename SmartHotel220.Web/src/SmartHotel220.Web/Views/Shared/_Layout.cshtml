@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SmartHotel220</title>
+    <base href="~/" />
+
+    <link rel="icon" type="image/png" sizes="72x72" href="~/assets/favicon/favicon-72x72.png">
+    <link rel="icon" type="image/png" sizes="120x120" href="~/assets/favicon/favicon-120x120.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="~/assets/favicon/favicon-192x192.png">
+    <meta name="myapplication-TileColor" content="#253748">
+    <meta name="myapplication-TileImage" content="~/assets/favicon/my-icon-144x144.png">
+    <meta name="theme-color" content="#253748">
+
+    <link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/dist/site.css" asp-append-version="true" />
+</head>
+<body>
+    @RenderBody()
+    
+    <script src="~/lib/msal.js" asp-append-version="true"></script>
+    <script src="~/dist/vendor.js" asp-append-version="true"></script>
+    @RenderSection("scripts", false)
+</body>
+</html>

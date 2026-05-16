@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  smarthotel220.web:
+    image: smarthotel220/web
+    build:
+      context: .
+      dockerfile: SmartHotel220.Web/Dockerfile

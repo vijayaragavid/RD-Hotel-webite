@@ -1,0 +1,11 @@
+﻿@import 'variables';
+
+// Примесь для ссылок
+@mixin menu-links {
+    cursor: pointer;
+
+    &:hover {
+        color: $color-brand-bright;
+        transition: color $animation-speed-default;
+    }
+}

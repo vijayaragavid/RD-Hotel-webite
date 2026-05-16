@@ -1,0 +1,25 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: web
+spec:
+  template:
+    metadata:
+      labels:
+        app: smarthotel220web
+        component: web
+    spec:
+      containers:
+      - name: web
+        image: smarthotel220/web:latest
+        imagePullPolicy: Always
+        env:
+        - name: ApplicationInsights__InstrumentationKey
+          valueFrom:
+           configMapKeyRef:
+             name: externalcfg
+             key: ApplicationInsights__InstrumentationKey  
+        - name: k8sname
+          value: smarthotel220-cluster             
+        ports:
+        - containerPort: 80
